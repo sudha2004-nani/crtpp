@@ -1,0 +1,7 @@
+class overloaddemo:
+    def multiply(self,a,b):
+        print(a*b)
+    def multipy(self,a,b,c):
+        print(a*b*c)
+m=overloaddemo()
+m.multipy(5,10)
